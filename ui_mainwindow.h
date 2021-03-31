@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'mainwindow.ui'
 **
-** Created by: Qt User Interface Compiler version 5.12.5
+** Created by: Qt User Interface Compiler version 5.15.1
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -67,8 +67,8 @@ public:
 
     void retranslateUi(QMainWindow *MainWindow)
     {
-        MainWindow->setWindowTitle(QApplication::translate("MainWindow", "Segment Clipping against Rect Application", nullptr));
-        pushButton->setText(QApplication::translate("MainWindow", "Generate Random Segments", nullptr));
+        MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "Segment Clipping against Rect Application", nullptr));
+        pushButton->setText(QCoreApplication::translate("MainWindow", "Generate Random Segments", nullptr));
     } // retranslateUi
 
 };
